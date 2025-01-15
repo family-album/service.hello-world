@@ -1,6 +1,6 @@
 <addon>
     <id>service.hello-world</id>
-    <version>1.0.0</version>
+    <version>1.0.1</version>
     <name>Hello World Service</name>
     <description>A simple Kodi service that displays a 'Hello World' message on startup.</description>
     <type>service</type>
