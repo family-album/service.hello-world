@@ -1,4 +1,4 @@
 <?xml version='1.0' encoding='utf-8'?>
-<addon id="service.hello-world" version="0.0.26" name="Hello, World!" provider-name="Santiago Ruiz">
+<addon id="service.hello-world" version="0.0.27" name="Hello, World!" provider-name="Santiago Ruiz">
     <extension point="xbmc.service" library="service.py" start="login" />
 </addon>
