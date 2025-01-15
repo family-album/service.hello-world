@@ -6,6 +6,7 @@
     <type>service</type>
     <provides>service</provides>
     <extension point="xbmc.python.script" library="service.py" />
+    <extension point="xbmc.python.program" library="program.py" />
     <extension point="xbmc.addon.metadata">
         <summary>Hello World Service</summary>
         <platform>all</platform>
