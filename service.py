@@ -8,7 +8,7 @@ def run():
 
     # Run the OneDrive addon and navigate to the images section
     addon_id = 'plugin.onedrive'
-    url = f'plugin://{addon_id}/?action=images'
+    url = f'plugin://{addon_id}/?action=list&content_type=images'
     xbmc.executebuiltin(f'RunPlugin("{url}")')
 
 if __name__ == "__main__":
