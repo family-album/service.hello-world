@@ -7,7 +7,7 @@ def run():
     dialog.ok("Hello World", "Hello World")
 
     # Ejecutar el addon de imágenes en la sección de imágenes
-    xbmc.executebuiltin('RunAddon(plugin.onedrive, content=images)')
+    xbmc.executebuiltin('RunPlugin(plugin://plugin.onedrive/?content_type=images)')
 
 if __name__ == "__main__":
     run()
