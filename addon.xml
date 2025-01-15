@@ -1,0 +1,13 @@
+<addon>
+    <id>service.hello-world</id>
+    <version>1.0.0</version>
+    <name>Hello World Service</name>
+    <description>A simple Kodi service that displays a 'Hello World' message on startup.</description>
+    <type>service</type>
+    <provides>service</provides>
+    <extension point="xbmc.python.script" library="service.py" />
+    <extension point="xbmc.addon.metadata">
+        <summary>Hello World Service</summary>
+        <platform>all</platform>
+    </extension>
+</addon>
