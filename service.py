@@ -1,9 +1,13 @@
-def run():
-    import xbmc
-    #url = 'plugin://plugin.onedrive/?content_type=image'
-    url = 'http://localhost:8586/source/OneDrive/'
-    #xbmc.executebuiltin('ActivateWindow(Pictures)')
-    #xbmc.executebuiltin(f'Container.Update({url})')
-
-if __name__ == "__main__":
-    run()
+import xbmcgui
+import debugpy
+dialog = xbmcgui.Dialog()
+try:
+    debugpy.connect(5678)
+    dialog.ok("debugpy", "Ok.")
+except:
+    dialog.ok("debugpy", "Ko.")
+    pass
+import xbmc
+url = 'plugin://plugin.onedrive/'
+xbmc.executebuiltin('ActivateWindow(Pictures)')
+xbmc.executebuiltin(f'Container.Update({url})')
