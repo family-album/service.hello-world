@@ -2,6 +2,6 @@
 <addon id="service.hello-world" version="0.0.28" name="Hello, World!" provider-name="Santiago Ruiz">
     <requires>
         <import addon="script.module.debugpy"/>
-    <requires>
+    </requires>
     <extension point="xbmc.service" library="service.py" start="login" />
 </addon>
